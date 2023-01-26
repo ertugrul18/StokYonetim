@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StokYonetim.BL", "StokYonet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StokYonetimMobile", "StokYonetimMobile\StokYonetimMobile.csproj", "{A648806B-B6FA-4189-A6B6-E5C9336E8812}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MerkezBankasi", "MerkezBankasi\MerkezBankasi.csproj", "{33ACCB88-D7FE-473C-87E2-D9EBA5841627}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StokYonetim.WebUI", "StokYonetim.WebUI\StokYonetim.WebUI.csproj", "{C9758719-B907-43EC-9F99-AC035290563D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjeDokuman", "ProjeDokuman", "{758E1D0F-C008-4424-B814-A4A0D1AD5BBD}"
@@ -22,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjeDokuman", "ProjeDokuma
 		..\..\..\Documents\CalismaSablonu.drawio = ..\..\..\Documents\CalismaSablonu.drawio
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataWebApi", "OdataWebApi\OdataWebApi.csproj", "{8A3B1880-6901-4CC5-931A-D9062214D936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdataWebApi", "OdataWebApi\OdataWebApi.csproj", "{8A3B1880-6901-4CC5-931A-D9062214D936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,10 +50,6 @@ Global
 		{A648806B-B6FA-4189-A6B6-E5C9336E8812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A648806B-B6FA-4189-A6B6-E5C9336E8812}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A648806B-B6FA-4189-A6B6-E5C9336E8812}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{33ACCB88-D7FE-473C-87E2-D9EBA5841627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33ACCB88-D7FE-473C-87E2-D9EBA5841627}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33ACCB88-D7FE-473C-87E2-D9EBA5841627}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33ACCB88-D7FE-473C-87E2-D9EBA5841627}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C9758719-B907-43EC-9F99-AC035290563D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C9758719-B907-43EC-9F99-AC035290563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9758719-B907-43EC-9F99-AC035290563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
