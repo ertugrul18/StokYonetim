@@ -26,7 +26,7 @@ namespace StokYonetim.DAL.EFCore.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseNpgsql("Server=11.0.17.100;Port=5432;Database=StokYonetim;User Id=postgres;Password=123;");
+            optionsBuilder.UseNpgsql("Server=127.0.0.1;Port=5432;Database=StokYonetim;User Id=postgres;Password=123;");
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
